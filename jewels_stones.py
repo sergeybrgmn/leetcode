@@ -17,7 +17,11 @@ All the characters of jewels are unique.
 
 Link: https://leetcode.com/problems/jewels-and-stones/
 """
-class Solution:         
+
+from collections import Counter
+
+class Solution:   
+    #Basic solution      
     def numJewelsInStones(self, jewels: str, stones: str) -> int:
         """The main func of the class"""    
         if (len(jewels) >= 1) and (len(stones) <= 50) and (stones.isalpha()):
@@ -28,6 +32,26 @@ class Solution:
             return counter
         else:
             print("inputs are not within constrains")
+       
+    def numJewelsInStones_opt2(self, jewels: str, stones: str) -> int:
+        """The main func of the class"""
+        counter=0    
+        stone_count = Counter(stones)
+        print(stone_count)
+
+        for jewel in jewels:
+            counter += stone_count[jewel]
+                    
+        return counter
+
+    def numJewelsInStones_opt3(self, jewels: str, stones: str) -> int:
+        """The main func of the class"""
+        if (len(jewels) >= 1) and (len(stones) <= 50) and (stones.isalpha()) :
+            return len([j for j in jewels for s in stones if j == s])
+        else:
+            return None
+
+
 
 #Test cases:
 
@@ -37,9 +61,10 @@ solution = Solution()
 test_pairs = [
 ("aA","aAAbbbb",3),
 ("z","ZZ",0),
-("","ZZ",None)
+("dd","",None),
+("","fgdD",None),
 ]
 
 for pair in test_pairs:
-    output = solution.numJewelsInStones(jewels=pair[0],stones=pair[1])
+    output = solution.numJewelsInStones_opt3(jewels=pair[0],stones=pair[1])
     assert output == pair[2]
