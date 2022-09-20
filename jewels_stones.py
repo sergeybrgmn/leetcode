@@ -1,4 +1,4 @@
-"""The class to calculate how many of the stones you have are also jewels. 
+"""The module to calculate how many of the stones you have are also jewels. 
 Strings <jewels> representing the types of stones that are jewels
 String <stones> representing the stones you have
 
@@ -21,7 +21,7 @@ Link: https://leetcode.com/problems/jewels-and-stones/
 from collections import Counter
 
 class Solution:   
-    #Basic solution      
+    #My original solution      
     def numJewelsInStones(self, jewels: str, stones: str) -> int:
         """The main func of the class"""    
         if (len(jewels) >= 1) and (len(stones) <= 50) and (stones.isalpha()):
@@ -33,6 +33,7 @@ class Solution:
         else:
             print("inputs are not within constrains")
        
+    #Took this solution from someone - interesting approach based on  Counter (a dict for stones)
     def numJewelsInStones_opt2(self, jewels: str, stones: str) -> int:
         """The main func of the class"""
         counter=0    
@@ -44,6 +45,7 @@ class Solution:
                     
         return counter
 
+    #Took this solution from someone
     def numJewelsInStones_opt3(self, jewels: str, stones: str) -> int:
         """The main func of the class"""
         if (len(jewels) >= 1) and (len(stones) <= 50) and (stones.isalpha()) :
