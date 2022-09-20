@@ -5,6 +5,6 @@ The performance (Runtume, Memory usage) in the table below are measured  before 
 
 Problem # | Link | Language | File | Runtime: cohort,value | Memory: cohort, value
 --- | --- | --- | --- | --- | --- 
-771 | https://leetcode.com/problems/jewels-and-stones/ | Python3 | jewels_stones.py | 10%, 67ms | 59%, 13.9MB
-1757 | https://leetcode.com/problems/recyclable-and-low-fat-products/| Python3, SQL | recycle_lowfat.py | 75%, 516ms | --, 0MB
+771 | https://leetcode.com/problems/jewels-and-stones/ | Python3 | 771_jewels_stones.py | 10%, 67ms | 59%, 13.9MB
+1757 | https://leetcode.com/problems/recyclable-and-low-fat-products/| Python3, SQL | 1757_recycle_lowfat.py | 75%, 516ms | --, 0MB
 
