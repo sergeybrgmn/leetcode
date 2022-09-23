@@ -16,3 +16,4 @@ Problem # | Link | Language | File | Runtime: cohort,value | Memory: cohort, val
 1693 | https://leetcode.com/problems/daily-leads-and-partners/ | SQL,Python | 1693_leads_partner.py | 37%,727ms | 0MB
 1108 | https://leetcode.com/problems/defanging-an-ip-address/ | Python | 1108_ip_defang.py | 6%,71ms | 13.9 MB
 1587 | https://leetcode.com/problems/defanging-an-ip-address/ | SQL | 1587_bank_account.sql | 93%,565ms |  MB
+1480 | https://leetcode.com/problems/running-sum-of-1d-array/ | SQL | 1480_array_run_sum.py | 17%,87ms | 14 MB
