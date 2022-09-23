@@ -47,10 +47,8 @@ from mysql.connector import connect, Error
 #After starting MySQL server
 connection = connect(
         host="localhost",
-        user ='root',
-        password="Server22$",
-        #user=input("Enter username: "),
-        #password=getpass("Enter password: "),
+        user=input("Enter username: "),
+        password=getpass("Enter password: "),
         database="leetdb"
 )
 
