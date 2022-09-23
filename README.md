@@ -14,3 +14,4 @@ Problem # | Link | Language | File | Runtime: cohort,value | Memory: cohort, val
 627 | https://leetcode.com/problems/swap-salary/ | Python3,SQL | 627_swap_salary.py | 51%,296ms | 0MB
 1795 | https://leetcode.com/problems/rearrange-products-table/ | SQL,Python | 1795_rearr_products.py | 44%,653ms | 0MB
 1693 | https://leetcode.com/problems/daily-leads-and-partners/ | SQL,Python | 1693_leads_partner.py | 37%,727ms | 0MB
+1108 | https://leetcode.com/problems/defanging-an-ip-address/ | Python | 1108_ip_defang.py | 6%,71ms | 13.9 MB
