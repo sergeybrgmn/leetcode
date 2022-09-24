@@ -19,3 +19,4 @@ Problem # | Link | Language | File | Runtime: cohort,value | Memory: cohort, val
 1480 | https://leetcode.com/problems/running-sum-of-1d-array/ | SQL | 1480_array_run_sum.py | 17%,87ms | 14 MB
 1581 | https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/ | SQL | 1581_no_transac.sql | 1400ms | 14 MB
 557 | https://leetcode.com/problems/reverse-words-in-a-string-iii/ | Python | 557_reverse_word.py | 68%,57ms | 14.7 MB
+511 | https://leetcode.com/problems/game-play-analysis-i/ | SQL | 511_game_play.sql | 873ms | 0 MB
